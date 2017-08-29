@@ -10,6 +10,9 @@ a.active {
   height: 200px;
 }
 
+.fab-links {
+    margin-right: 45px;
+}
 .page-footer {
     padding-top: 0;
 }
