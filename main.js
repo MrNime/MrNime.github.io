@@ -30,4 +30,9 @@ $(document).ready(function(){
     //         console.log('width is below 768px !');
     //     }
     // });
+
+    $('#alert_close').click(function(){
+        $("#thankyou_message").fadeOut("slow", function() {
+        });
+    });
   });
