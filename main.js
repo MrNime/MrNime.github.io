@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('.scrollspy').scrollSpy();
     $('.parallax').parallax();
     $(".button-collapse").sideNav();
+    $('.tooltipped').tooltip({delay: 50});
 
     //scrollspy active on li tags that are parents of the a tags that get affected
     $('.scrollspy').on('scrollSpy:enter', function() {

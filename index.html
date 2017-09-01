@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="devicon.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -65,8 +66,8 @@
             <div class="card">
                 <div class="card-image">
                     <img src="/img/projects/flyinglap.png">
-                    <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://flyinglap.herokuapp.com" target="_blank"><i class="material-icons">exit_to_app</i></a>
-                    <a class="btn-floating halfway-fab waves-effect waves-light red fab-links" href="https://github.com/MrNime/Flying-Lap" target="_blank"><i class="material-icons">code</i></a>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red tooltipped" href="https://flyinglap.herokuapp.com" target="_blank" data-position="top" data-tooltip="View demo"><i class="material-icons">exit_to_app</i></a>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red fab-links tooltipped" href="https://github.com/MrNime/Flying-Lap" target="_blank" data-position="top" data-tooltip="View code"><i class="material-icons">code</i></a>
                 </div>
                 <div class="card-content">
                     <span class="card-title">Flying Lap</span>
@@ -77,8 +78,8 @@
             <div class="card">
                 <div class="card-image">
                     <img src="/img/projects/randomquotes.png">
-                    <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://mrnime.github.io/RandomQuotes" target="_blank"><i class="material-icons">exit_to_app</i></a>
-                    <a class="btn-floating halfway-fab waves-effect waves-light red fab-links" href="https://github.com/MrNime/RandomQuotes" target="_blank"><i class="material-icons">code</i></a>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red tooltipped" href="https://mrnime.github.io/RandomQuotes" target="_blank" data-position="top" data-tooltip="View demo"><i class="material-icons">exit_to_app</i></a>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red fab-links tooltipped" href="https://github.com/MrNime/RandomQuotes" target="_blank" data-position="top" data-tooltip="View code"><i class="material-icons">code</i></a>
                 </div>
                 <div class="card-content">
                     <span class="card-title">Random Quote Generator</span>
@@ -90,8 +91,8 @@
             <div class="card">
                 <div class="card-image">
                     <img src="/img/projects/localweather.png">
-                    <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://mrnime.github.io/LocalWeather" target="_blank"><i class="material-icons">exit_to_app</i></a>
-                    <a class="btn-floating halfway-fab waves-effect waves-light red fab-links" href="https://github.com/MrNime/LocalWeather" target="_blank"><i class="material-icons">code</i></a>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red tooltipped" href="https://mrnime.github.io/LocalWeather" target="_blank" data-position="top" data-tooltip="View demo"><i class="material-icons">exit_to_app</i></a>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red fab-links tooltipped" href="https://github.com/MrNime/LocalWeather" target="_blank" data-position="top" data-tooltip="View code"><i class="material-icons">code</i></a>
                 </div>
                 <div class="card-content">
                     <span class="card-title">Local Weather</span>
@@ -167,15 +168,23 @@
 </div>
 
 <!--end parallax-->
-<div class="parallax-container">
+<!-- <div class="parallax-container">
     <div class="parallax"><img src="/img/bottom.jpeg"></div>
-</div>
+</div> -->
 
 <footer class="page-footer blue darken-2">
     <div class="footer-copyright">
         <div class="container">
-            Coded by <a href="https://www.freecodecamp.com/MrNime" target="_blank">Nicky Meuleman</a>
-            <a class="grey-text text-lighten-4 right" href="#!">Social icons</a>
+            <span class="grey-text text-lighten-4">
+                Coded by <a class="grey-text text-lighten-1" href="https://www.freecodecamp.com/MrNime" target="_blank">Nicky Meuleman</a>
+            </span>
+            <a class="grey-text text-lighten-4 right tooltipped" href="https://twitter.com/NMeuleman" target="_blank" data-position="top" data-tooltip="Twitter">
+                <i class="devicon-twitter-plain"></i> <span>&nbsp;</span>
+            </a>
+            <a class="grey-text text-lighten-4 right tooltipped" href="https://github.com/MrNime" target="_blank" data-position="top" data-tooltip="Github">
+                <i class="devicon-github-plain"></i> <span>&nbsp;</span>
+            </a>
+
         </div>
     </div>
 </footer>
